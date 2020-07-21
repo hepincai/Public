@@ -9845,8 +9845,6 @@ pvnapp.zol.com.cn
 .eiv.baidu.cn
 .eiv.baidu.com
 .em.baidu.com
-.entry.baidu.cn
-.entry.baidu.com
 .ers.baidu.com
 .f10.baidu.com
 .fc-.cdn.bcebos.com
@@ -10138,7 +10136,9 @@ pvnapp.zol.com.cn
 .adv.sec.intl.miui.com
 .adv.sec.miui.com
 .bss.pandora.xiaomi.com
+.cdn.cnbj1.fds.api.mi-img.com
 .d.g.mi.com
+.data.mistat.xiaomi.com
 .de.pandora.xiaomi.com
 .dvb.pandora.xiaomi.com
 .jellyfish.pandora.xiaomi.com
@@ -10540,7 +10540,6 @@ wxsnsdythumb.wxs.qq.com
 .match.rtbidder.net
 .n-st.vip.com
 .pop.uusee.com
-.static.bshare.cn
 .static.duoshuo.com
 .t.cr-nielsen.com
 .terren.cntv.cn
