@@ -73,8 +73,10 @@ dns:
      - localhost.ptlogin2.qq.com
   nameserver:
      - 223.5.5.5 # 阿里DNS
-     - 180.76.76.76 # 百度DNS
-     - 119.29.29.29 # 腾讯DNS
+     - 119.29.29.29 # 百度DNS
+     - 120.196.165.24
+     - 211.136.192.6
+	 
     # - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
      #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
      #- 114.114.114.114 # 114DNS
@@ -82,7 +84,6 @@ dns:
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
      - 8.8.8.8 # 谷歌DNS
-     - 1.1.1.1 # Cloudflare DNS
     #- tls://dns.rubyfish.cn:853
      #- tls://1.0.0.1:853
      #- tls://dns.google:853
