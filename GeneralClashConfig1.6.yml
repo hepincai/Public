@@ -72,6 +72,8 @@ dns:
      - '*.lan'
      - localhost.ptlogin2.qq.com
   nameserver:
+     - 8.8.8.8 # 谷歌DNS
+     - 208.67.222.222
      - 223.5.5.5 # 阿里DNS
      - 119.29.29.29 # 百度DNS
      - 120.196.165.24
@@ -85,8 +87,12 @@ dns:
   fallback:
      - 8.8.8.8 # 谷歌DNS
      - 208.67.222.222
+     - 223.5.5.5 # 阿里DNS
+     - 119.29.29.29 # 百度DNS
+     - 120.196.165.24
+     - 211.136.192.6
      - 192.168.0.99
-    #- tls://dns.rubyfish.cn:853
+     #- tls://dns.rubyfish.cn:853
      #- tls://1.0.0.1:853
      #- tls://dns.google:853
     # - https://dns.rubyfish.cn/dns-query
