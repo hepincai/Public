@@ -272,12 +272,10 @@ rules:
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,google,DIRECT
-  - RULE-SET,proxy,PROXY
+  - RULE-SET,proxy,🚀 普通节点
   - RULE-SET,direct,DIRECT
-  - RULE-SET,telegramcidr,PROXY
+  - RULE-SET,telegramcidr,🚀 普通节点
   - GEOIP,,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,PROXY
 
 # Clash for Windows
 # Proxies module latency test settings
