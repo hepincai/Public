@@ -132,14 +132,14 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./ruleset/reject.yaml
     interval: 86400
-	
+
   antiAD:
     type: http
     behavior: domain
     url: "https://anti-ad.net/clash.yaml"
     path: ./ruleset/antiAD.yaml
     interval: 86400
-	
+
   icloud:
     type: http
     behavior: domain
