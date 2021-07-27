@@ -316,7 +316,6 @@ rules:
   - RULE-SET,proxy,🚀 普通节点
   - RULE-SET,direct,DIRECT
   - RULE-SET,telegramcidr,🚀 普通节点
-  - GEOIP,,DIRECT
 
 # Clash for Windows
 # Proxies module latency test settings
