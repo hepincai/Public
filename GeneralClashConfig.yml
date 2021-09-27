@@ -132,6 +132,13 @@ dns:
        - 240.0.0.0/4
 
 rule-providers:
+  reject2:
+    type: http
+    behavior: domain
+    url: "https://file.trli.club/dns/ad-clash.yaml"
+    path: ./ruleset/reject2.yaml
+    interval: 86400
+
   reject:
     type: http
     behavior: domain
@@ -313,6 +320,7 @@ rules:
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
+  - RULE-SET,reject2,REJECT
   - RULE-SET,antiad,REJECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
