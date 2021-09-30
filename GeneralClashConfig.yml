@@ -312,8 +312,8 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
-  - RULE-SET,antiad,REJECT
+  - RULE-SET,reject,🛑 广告拦截
+  - RULE-SET,antiad,🛑 广告拦截
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,google,DIRECT
