@@ -132,13 +132,6 @@ dns:
        - 240.0.0.0/4
 
 rule-providers:
-  reject2:
-    type: http
-    behavior: classical
-    url: "https://file.trli.club/dns/ad-clash.yaml"
-    path: ./ruleset/reject2.yaml
-    interval: 86400
-
   reject:
     type: http
     behavior: domain
