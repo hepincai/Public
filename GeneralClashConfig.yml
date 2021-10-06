@@ -132,6 +132,13 @@ dns:
        - 240.0.0.0/4
 
 rule-providers:
+  myDirect:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/hepincai/Public/master/directProvider.txt"
+    path: ./ruleset/myDirect.yaml
+    interval: 86400
+
   reject:
     type: http
     behavior: domain
@@ -311,6 +318,7 @@ rules:
   - PROCESS-NAME,WebTorrent.exe,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,myDirect,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,🛑 广告拦截
   - RULE-SET,antiad,🛑 广告拦截
