@@ -1,6 +1,6 @@
 payload:
   - 'pan.panoan1.workers.dev'
-  - 'miaorelay.com'
+  - 'www.miaorelay.com'
   - 'baidu.kinh.cc'
   - '1090ys2.com'
   - '9191.ga'
