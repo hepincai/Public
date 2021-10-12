@@ -139,6 +139,13 @@ rule-providers:
     path: ./ruleset/myDirect.yaml
     interval: 86400
 
+  myReject:
+    type: http
+    behavior: domain
+    url: "https://gitee.com/hepincai/public/raw/master/rejectProvider.txt"
+    path: ./ruleset/myReject.yaml
+    interval: 86400
+
   reject:
     type: http
     behavior: domain
