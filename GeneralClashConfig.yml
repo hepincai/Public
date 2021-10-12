@@ -135,7 +135,7 @@ rule-providers:
   myDirect:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/hepincai/Public/master/directProvider.txt"
+    url: "https://gitee.com/hepincai/public/raw/master/directProvider.txt"
     path: ./ruleset/myDirect.yaml
     interval: 86400
 
