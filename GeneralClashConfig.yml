@@ -138,7 +138,14 @@ rule-providers:
     url: "https://gitee.com/hepincai/public/raw/master/directProvider.txt"
     path: ./ruleset/myDirect.yaml
     interval: 86400
-
+    
+  myProxy:
+    type: http
+    behavior: domain
+    url: "https://gitee.com/hepincai/public/raw/master/proxyProvider.txt"
+    path: ./ruleset/myProxy.yaml
+    interval: 86400
+    
   myReject:
     type: http
     behavior: domain
@@ -326,6 +333,7 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,myDirect,DIRECT
+  - RULE-SET,myProxy,🚀 普通节点
   - RULE-SET,myReject,🛑 广告拦截
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,🛑 广告拦截
