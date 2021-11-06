@@ -1,0 +1,5 @@
+payload:
+  - 'static.javhd.com'
+  - 'ad287.com'
+  - 'av758.com'
+  - 'gif.7mmtv.tv'
