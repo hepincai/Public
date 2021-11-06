@@ -1,0 +1,2 @@
+payload:
+  - 'avatars.mds.yandex.net'
