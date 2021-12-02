@@ -4,3 +4,4 @@ payload:
   - 'baidu.kinh.cc'
   - '1090ys2.com'
   - '9191.ga'
+  - 'sharepoint.com'
