@@ -21,132 +21,112 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: "** -88 TG@moon365free", server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: "**🇺🇸US -2558 TG@moon365free", server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 70.39.67.130}}, udp: true}
-  - {name: "**🇺🇸US -2572 TG@moon365free", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
-  - {name: "**🇺🇸US -2588 TG@moon365free", server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 198.148.92.246}}, udp: true}
-  - {name: "**🇺🇸US -2590 TG@moon365free", server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 104.166.135.10}}, udp: true}
-  - {name: "**🇺🇸US -2616 TG@moon365free", server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.58.150.130}}, udp: true}
-  - {name: "*🇨🇦CA -285 TG@moon365free", server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: canada-vancouver.mah3Hoet.com}}, udp: true}
-  - {name: "*🇨🇦CA -314 TG@moon365free", server: t4.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, skip-cert-verify: false, udp: true}
-  - {name: "*🇨🇦CA -315 TG@moon365free", server: t4.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, skip-cert-verify: false, udp: true}
-  - {name: "*🇨🇳TW -322 TG@moon365free", server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: "*🇨🇳TW -95 TG@moon365free", server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
-  - {name: "*🇨🇳TW -97 TG@moon365free", server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
-  - {name: "*🇫🇷FR -413 TG@moon365free", server: shanghai02.ddns-oink.xyz, port: 13217, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNdJ, obfs-param: t.me/vpnhat, udp: true}
+  - {name: "*", server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
+  - {name: "*🇨🇦CA", server: 71.19.252.163, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 71.19.252.163}}, udp: true}
+  - {name: "*🇨🇦CA -308 TG@moon365free", server: t4.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, skip-cert-verify: false, udp: true}
+  - {name: "*🇨🇦CA -311 TG@moon365free", server: t4.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, skip-cert-verify: false, udp: true}
+  - {name: "*🇨🇳TW -314 TG@moon365free", server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "*🇨🇳TW -87 TG@moon365free", server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
   - {name: "*🇭🇰HK -120 TG@moon365free", server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk8.fans8.xyz}}, udp: true}
-  - {name: "*🇭🇰HK -399 TG@moon365free", server: gd-x-sy183.ddns-oink.xyz, port: 13639, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNdJ, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "*🇮🇳IN -1339 TG@moon365free", server: az.misakamitoko.ml, port: 10003, type: vmess, uuid: f772bf5c-2e9a-429f-8c76-998bb0212869, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ghjjkkkjgffcugvihuyfuyguyciucuh, headers: {Host: az.misakamitoko.ml}}, udp: true}
-  - {name: "*🇯🇵JP -412 TG@moon365free", server: 14.152.92.77, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇯🇵JP -426 TG@moon365free", server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇯🇵JP -442 TG@moon365free", server: 14.152.92.80, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇯🇵JP -448 TG@moon365free", server: 42.157.195.243, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇯🇵JP -456 TG@moon365free", server: 14.152.92.78, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇯🇵JP -459 TG@moon365free", server: 14.152.92.76, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇯🇵JP -460 TG@moon365free", server: 14.152.92.79, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇰🇷KR -101 TG@moon365free", server: vn.mumi.bid, port: 10125, type: vmess, uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vn.mumi.bid}}, udp: true}
-  - {name: "*🇰🇷KR -102 TG@moon365free", server: arm.50k.one, port: 39966, type: vmess, uuid: 608408f6-fd79-49a3-96ef-003266a773a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "*🇰🇷KR -2656 TG@moon365free", server: t10.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, skip-cert-verify: false, udp: true}
-  - {name: "*🇰🇷KR -82 TG@moon365free", server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v.mumi.bid}}, udp: true}
-  - {name: "*🇰🇷KR -84 TG@moon365free", server: amd.50k.one, port: 30943, type: vmess, uuid: a0654eba-7b58-4d64-cfdb-c006e5d38324, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "*🇰🇷KR -963 TG@moon365free", server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
-  - {name: "*🇰🇷KR -99 TG@moon365free", server: hu.50k.one, port: 26536, type: vmess, uuid: 7d28a3b8-eae9-4c3e-afbb-bd42577e3cb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "*🇲🇾MY -332 TG@moon365free", server: 183.232.170.116, port: 22819, type: ss, cipher: aes-128-gcm, password: 6626f856-909b-4e44-b720-c79c6f7cc1fb, udp: true}
-  - {name: "*🇲🇾MY -66 TG@moon365free", server: cm.newhua99.ga, port: 22819, type: ss, cipher: aes-128-gcm, password: 6626f856-909b-4e44-b720-c79c6f7cc1fb, udp: true}
-  - {name: "*🇵🇱PL -980 TG@moon365free", server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0122us.fans8.xyz}}, udp: true}
-  - {name: "*🇷🇺RU -397 TG@moon365free", server: shanghai02.ddns-oink.xyz, port: 13109, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 214117:KMXNdJ, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "*🇷🇺RU -96 TG@moon365free", server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}, udp: true}
-  - {name: "*🇸🇬SG -408 TG@moon365free", server: 120.233.151.145, port: 6009, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6IyhJ, obfs-param: https://t.me/proxypoolqwerty426, udp: true}
-  - {name: "*🇸🇬SG -445 TG@moon365free", server: 14.152.92.82, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇸🇬SG -446 TG@moon365free", server: 14.152.92.81, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇸🇬SG -85 TG@moon365free", server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "*🇺🇸US -2584 TG@moon365free", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: "*🇺🇸US -2585 TG@moon365free", server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
-  - {name: "*🇺🇸US -2587 TG@moon365free", server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: amu1ahfi.com}}, udp: true}
-  - {name: "*🇺🇸US -2612 TG@moon365free", server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: "*🇺🇸US -2650 TG@moon365free", server: vincent-jackson2022.ml, port: 443, type: trojan, password: 188741f2-1f14-43cb-be7a-1200a9f4332e, skip-cert-verify: false, udp: true}
-  - {name: "*🇺🇸US -385 TG@moon365free", server: 120.233.151.145, port: 7010, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6IyhJ, obfs-param: https://t.me/proxypoolqwerty426, udp: true}
-  - {name: "*🇺🇸US -433 TG@moon365free", server: 42.157.195.236, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -434 TG@moon365free", server: 42.157.195.239, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -439 TG@moon365free", server: 14.152.92.71, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -441 TG@moon365free", server: 42.157.195.230, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -444 TG@moon365free", server: 42.157.195.228, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -449 TG@moon365free", server: 42.157.195.240, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -450 TG@moon365free", server: 42.157.195.233, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -452 TG@moon365free", server: 14.152.92.72, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -455 TG@moon365free", server: 42.157.195.234, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -458 TG@moon365free", server: 14.152.92.73, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: "*🇺🇸US -658 TG@moon365free", server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
-  - {name: "*🇺🇸US -88 TG@moon365free", server: vs.mumi.bid, port: 10124, type: vmess, uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vs.mumi.bid}}, udp: true}
-  - {name: "*🇺🇸US -90 TG@moon365free", server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
-  - {name: "*🇺🇸US -92 TG@moon365free", server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "*🇺🇸US -94 TG@moon365free", server: in04.dns2333.xyz, port: 64069, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: in04.dns2333.xyz}}, udp: true}
+  - {name: "*🇮🇳IN -1317 TG@moon365free", server: az.misakamitoko.ml, port: 10003, type: vmess, uuid: f772bf5c-2e9a-429f-8c76-998bb0212869, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ghjjkkkjgffcugvihuyfuyguyciucuh, headers: {Host: az.misakamitoko.ml}}, udp: true}
+  - {name: "*🇯🇵JP -2633 TG@moon365free", server: vincent-jackson2021.ga, port: 443, type: trojan, password: a2c47c59-a4c8-4d66-9456-966ba37dedcc, skip-cert-verify: false, udp: true}
+  - {name: "*🇯🇵JP -445 TG@moon365free", server: 42.157.195.243, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇯🇵JP -455 TG@moon365free", server: 42.157.195.244, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇯🇵JP -456 TG@moon365free", server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇯🇵JP -457 TG@moon365free", server: 14.152.92.77, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇯🇵JP -85 TG@moon365free", server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "*🇰🇷KR -102 TG@moon365free", server: amd.50k.one, port: 30943, type: vmess, uuid: a0654eba-7b58-4d64-cfdb-c006e5d38324, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "*🇰🇷KR -91 TG@moon365free", server: vn.mumi.bid, port: 10125, type: vmess, uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vn.mumi.bid}}, udp: true}
+  - {name: "*🇰🇷KR -92 TG@moon365free", server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v.mumi.bid}}, udp: true}
+  - {name: "*🇰🇷KR -949 TG@moon365free", server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}, udp: true}
+  - {name: "*🇲🇾MY -320 TG@moon365free", server: 183.232.170.116, port: 22819, type: ss, cipher: aes-128-gcm, password: 6626f856-909b-4e44-b720-c79c6f7cc1fb, udp: true}
+  - {name: "*🇵🇱PL -964 TG@moon365free", server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0122us.fans8.xyz}}, udp: true}
+  - {name: "*🇷🇺RU", server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 92.223.65.119}}, udp: true}
+  - {name: "*🇷🇺RU -2575 TG@moon365free", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: "*🇷🇺RU -88 TG@moon365free", server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}, udp: true}
+  - {name: "*🇸🇬SG -351 TG@moon365free", server: tunnel-sg-a-01.xncloud.xyz, port: 110, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-10.xncloud.xyz}}, udp: true}
+  - {name: "*🇸🇬SG -361 TG@moon365free", server: tunnel-sg-a-01.xncloud.xyz, port: 108, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /niaoyun, headers: {Host: mf-aws-sg-08.xncloud.xyz}}, udp: true}
+  - {name: "*🇸🇬SG -443 TG@moon365free", server: 14.152.92.82, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇸🇬SG -444 TG@moon365free", server: 14.152.92.81, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇸🇬SG -458 TG@moon365free", server: 120.233.151.145, port: 6009, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 188236:c6IyhJ, obfs-param: https://t.me/proxypoolqwerty426, udp: true}
+  - {name: "*🇺🇸US", server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 198.148.92.246}}, udp: true}
+  - {name: "*🇺🇸US 2", server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 70.39.67.130}}, udp: true}
+  - {name: "*🇺🇸US 3", server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 104.166.135.10}}, udp: true}
+  - {name: "*🇺🇸US 4", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
+  - {name: "*🇺🇸US 5", server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.58.150.130}}, udp: true}
+  - {name: "*🇺🇸US -2554 TG@moon365free", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: "*🇺🇸US -2555 TG@moon365free", server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
+  - {name: "*🇺🇸US -2561 TG@moon365free", server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: amu1ahfi.com}}, udp: true}
+  - {name: "*🇺🇸US -2583 TG@moon365free", server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: "*🇺🇸US -440 TG@moon365free", server: 42.157.195.230, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -441 TG@moon365free", server: 42.157.195.229, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -442 TG@moon365free", server: 42.157.195.228, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -446 TG@moon365free", server: 42.157.195.233, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -447 TG@moon365free", server: 42.157.195.232, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -448 TG@moon365free", server: 42.157.195.234, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -453 TG@moon365free", server: 42.157.195.231, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -454 TG@moon365free", server: 14.152.92.74, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "*🇺🇸US -591 TG@moon365free", server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: "*🇺🇸US -647 TG@moon365free", server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: "*🇺🇸US -83 TG@moon365free", server: vs.mumi.bid, port: 10124, type: vmess, uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vs.mumi.bid}}, udp: true}
+  - {name: "*🇺🇸US -84 TG@moon365free", server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
+  - {name: "*🇺🇸US -86 TG@moon365free", server: in04.dns2333.xyz, port: 64069, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: in04.dns2333.xyz}}, udp: true}
 proxy-groups:
   - name: 🌐 Moon节点选择
     type: select
     proxies:
       - 💡 Auto
       - 🎈 Failover
-      - "** -88 TG@moon365free"
-      - "**🇺🇸US -2558 TG@moon365free"
-      - "**🇺🇸US -2572 TG@moon365free"
-      - "**🇺🇸US -2588 TG@moon365free"
-      - "**🇺🇸US -2590 TG@moon365free"
-      - "**🇺🇸US -2616 TG@moon365free"
-      - "*🇨🇦CA -285 TG@moon365free"
-      - "*🇨🇦CA -314 TG@moon365free"
-      - "*🇨🇦CA -315 TG@moon365free"
-      - "*🇨🇳TW -322 TG@moon365free"
-      - "*🇨🇳TW -95 TG@moon365free"
-      - "*🇨🇳TW -97 TG@moon365free"
-      - "*🇫🇷FR -413 TG@moon365free"
+      - "*"
+      - "*🇨🇦CA"
+      - "*🇨🇦CA -308 TG@moon365free"
+      - "*🇨🇦CA -311 TG@moon365free"
+      - "*🇨🇳TW -314 TG@moon365free"
+      - "*🇨🇳TW -87 TG@moon365free"
       - "*🇭🇰HK -120 TG@moon365free"
-      - "*🇭🇰HK -399 TG@moon365free"
-      - "*🇮🇳IN -1339 TG@moon365free"
-      - "*🇯🇵JP -412 TG@moon365free"
-      - "*🇯🇵JP -426 TG@moon365free"
-      - "*🇯🇵JP -442 TG@moon365free"
-      - "*🇯🇵JP -448 TG@moon365free"
+      - "*🇮🇳IN -1317 TG@moon365free"
+      - "*🇯🇵JP -2633 TG@moon365free"
+      - "*🇯🇵JP -445 TG@moon365free"
+      - "*🇯🇵JP -455 TG@moon365free"
       - "*🇯🇵JP -456 TG@moon365free"
-      - "*🇯🇵JP -459 TG@moon365free"
-      - "*🇯🇵JP -460 TG@moon365free"
-      - "*🇰🇷KR -101 TG@moon365free"
+      - "*🇯🇵JP -457 TG@moon365free"
+      - "*🇯🇵JP -85 TG@moon365free"
       - "*🇰🇷KR -102 TG@moon365free"
-      - "*🇰🇷KR -2656 TG@moon365free"
-      - "*🇰🇷KR -82 TG@moon365free"
-      - "*🇰🇷KR -84 TG@moon365free"
-      - "*🇰🇷KR -963 TG@moon365free"
-      - "*🇰🇷KR -99 TG@moon365free"
-      - "*🇲🇾MY -332 TG@moon365free"
-      - "*🇲🇾MY -66 TG@moon365free"
-      - "*🇵🇱PL -980 TG@moon365free"
-      - "*🇷🇺RU -397 TG@moon365free"
-      - "*🇷🇺RU -96 TG@moon365free"
-      - "*🇸🇬SG -408 TG@moon365free"
-      - "*🇸🇬SG -445 TG@moon365free"
-      - "*🇸🇬SG -446 TG@moon365free"
-      - "*🇸🇬SG -85 TG@moon365free"
-      - "*🇺🇸US -2584 TG@moon365free"
-      - "*🇺🇸US -2585 TG@moon365free"
-      - "*🇺🇸US -2587 TG@moon365free"
-      - "*🇺🇸US -2612 TG@moon365free"
-      - "*🇺🇸US -2650 TG@moon365free"
-      - "*🇺🇸US -385 TG@moon365free"
-      - "*🇺🇸US -433 TG@moon365free"
-      - "*🇺🇸US -434 TG@moon365free"
-      - "*🇺🇸US -439 TG@moon365free"
+      - "*🇰🇷KR -91 TG@moon365free"
+      - "*🇰🇷KR -92 TG@moon365free"
+      - "*🇰🇷KR -949 TG@moon365free"
+      - "*🇲🇾MY -320 TG@moon365free"
+      - "*🇵🇱PL -964 TG@moon365free"
+      - "*🇷🇺RU"
+      - "*🇷🇺RU -2575 TG@moon365free"
+      - "*🇷🇺RU -88 TG@moon365free"
+      - "*🇸🇬SG -351 TG@moon365free"
+      - "*🇸🇬SG -361 TG@moon365free"
+      - "*🇸🇬SG -443 TG@moon365free"
+      - "*🇸🇬SG -444 TG@moon365free"
+      - "*🇸🇬SG -458 TG@moon365free"
+      - "*🇺🇸US"
+      - "*🇺🇸US 2"
+      - "*🇺🇸US 3"
+      - "*🇺🇸US 4"
+      - "*🇺🇸US 5"
+      - "*🇺🇸US -2554 TG@moon365free"
+      - "*🇺🇸US -2555 TG@moon365free"
+      - "*🇺🇸US -2561 TG@moon365free"
+      - "*🇺🇸US -2583 TG@moon365free"
+      - "*🇺🇸US -440 TG@moon365free"
       - "*🇺🇸US -441 TG@moon365free"
-      - "*🇺🇸US -444 TG@moon365free"
-      - "*🇺🇸US -449 TG@moon365free"
-      - "*🇺🇸US -450 TG@moon365free"
-      - "*🇺🇸US -452 TG@moon365free"
-      - "*🇺🇸US -455 TG@moon365free"
-      - "*🇺🇸US -458 TG@moon365free"
-      - "*🇺🇸US -658 TG@moon365free"
-      - "*🇺🇸US -88 TG@moon365free"
-      - "*🇺🇸US -90 TG@moon365free"
-      - "*🇺🇸US -92 TG@moon365free"
-      - "*🇺🇸US -94 TG@moon365free"
+      - "*🇺🇸US -442 TG@moon365free"
+      - "*🇺🇸US -446 TG@moon365free"
+      - "*🇺🇸US -447 TG@moon365free"
+      - "*🇺🇸US -448 TG@moon365free"
+      - "*🇺🇸US -453 TG@moon365free"
+      - "*🇺🇸US -454 TG@moon365free"
+      - "*🇺🇸US -591 TG@moon365free"
+      - "*🇺🇸US -647 TG@moon365free"
+      - "*🇺🇸US -83 TG@moon365free"
+      - "*🇺🇸US -84 TG@moon365free"
+      - "*🇺🇸US -86 TG@moon365free"
   - name: ☁️ Domestic
     type: select
     proxies:
@@ -162,131 +142,111 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "** -88 TG@moon365free"
-      - "**🇺🇸US -2558 TG@moon365free"
-      - "**🇺🇸US -2572 TG@moon365free"
-      - "**🇺🇸US -2588 TG@moon365free"
-      - "**🇺🇸US -2590 TG@moon365free"
-      - "**🇺🇸US -2616 TG@moon365free"
-      - "*🇨🇦CA -285 TG@moon365free"
-      - "*🇨🇦CA -314 TG@moon365free"
-      - "*🇨🇦CA -315 TG@moon365free"
-      - "*🇨🇳TW -322 TG@moon365free"
-      - "*🇨🇳TW -95 TG@moon365free"
-      - "*🇨🇳TW -97 TG@moon365free"
-      - "*🇫🇷FR -413 TG@moon365free"
+      - "*"
+      - "*🇨🇦CA"
+      - "*🇨🇦CA -308 TG@moon365free"
+      - "*🇨🇦CA -311 TG@moon365free"
+      - "*🇨🇳TW -314 TG@moon365free"
+      - "*🇨🇳TW -87 TG@moon365free"
       - "*🇭🇰HK -120 TG@moon365free"
-      - "*🇭🇰HK -399 TG@moon365free"
-      - "*🇮🇳IN -1339 TG@moon365free"
-      - "*🇯🇵JP -412 TG@moon365free"
-      - "*🇯🇵JP -426 TG@moon365free"
-      - "*🇯🇵JP -442 TG@moon365free"
-      - "*🇯🇵JP -448 TG@moon365free"
+      - "*🇮🇳IN -1317 TG@moon365free"
+      - "*🇯🇵JP -2633 TG@moon365free"
+      - "*🇯🇵JP -445 TG@moon365free"
+      - "*🇯🇵JP -455 TG@moon365free"
       - "*🇯🇵JP -456 TG@moon365free"
-      - "*🇯🇵JP -459 TG@moon365free"
-      - "*🇯🇵JP -460 TG@moon365free"
-      - "*🇰🇷KR -101 TG@moon365free"
+      - "*🇯🇵JP -457 TG@moon365free"
+      - "*🇯🇵JP -85 TG@moon365free"
       - "*🇰🇷KR -102 TG@moon365free"
-      - "*🇰🇷KR -2656 TG@moon365free"
-      - "*🇰🇷KR -82 TG@moon365free"
-      - "*🇰🇷KR -84 TG@moon365free"
-      - "*🇰🇷KR -963 TG@moon365free"
-      - "*🇰🇷KR -99 TG@moon365free"
-      - "*🇲🇾MY -332 TG@moon365free"
-      - "*🇲🇾MY -66 TG@moon365free"
-      - "*🇵🇱PL -980 TG@moon365free"
-      - "*🇷🇺RU -397 TG@moon365free"
-      - "*🇷🇺RU -96 TG@moon365free"
-      - "*🇸🇬SG -408 TG@moon365free"
-      - "*🇸🇬SG -445 TG@moon365free"
-      - "*🇸🇬SG -446 TG@moon365free"
-      - "*🇸🇬SG -85 TG@moon365free"
-      - "*🇺🇸US -2584 TG@moon365free"
-      - "*🇺🇸US -2585 TG@moon365free"
-      - "*🇺🇸US -2587 TG@moon365free"
-      - "*🇺🇸US -2612 TG@moon365free"
-      - "*🇺🇸US -2650 TG@moon365free"
-      - "*🇺🇸US -385 TG@moon365free"
-      - "*🇺🇸US -433 TG@moon365free"
-      - "*🇺🇸US -434 TG@moon365free"
-      - "*🇺🇸US -439 TG@moon365free"
+      - "*🇰🇷KR -91 TG@moon365free"
+      - "*🇰🇷KR -92 TG@moon365free"
+      - "*🇰🇷KR -949 TG@moon365free"
+      - "*🇲🇾MY -320 TG@moon365free"
+      - "*🇵🇱PL -964 TG@moon365free"
+      - "*🇷🇺RU"
+      - "*🇷🇺RU -2575 TG@moon365free"
+      - "*🇷🇺RU -88 TG@moon365free"
+      - "*🇸🇬SG -351 TG@moon365free"
+      - "*🇸🇬SG -361 TG@moon365free"
+      - "*🇸🇬SG -443 TG@moon365free"
+      - "*🇸🇬SG -444 TG@moon365free"
+      - "*🇸🇬SG -458 TG@moon365free"
+      - "*🇺🇸US"
+      - "*🇺🇸US 2"
+      - "*🇺🇸US 3"
+      - "*🇺🇸US 4"
+      - "*🇺🇸US 5"
+      - "*🇺🇸US -2554 TG@moon365free"
+      - "*🇺🇸US -2555 TG@moon365free"
+      - "*🇺🇸US -2561 TG@moon365free"
+      - "*🇺🇸US -2583 TG@moon365free"
+      - "*🇺🇸US -440 TG@moon365free"
       - "*🇺🇸US -441 TG@moon365free"
-      - "*🇺🇸US -444 TG@moon365free"
-      - "*🇺🇸US -449 TG@moon365free"
-      - "*🇺🇸US -450 TG@moon365free"
-      - "*🇺🇸US -452 TG@moon365free"
-      - "*🇺🇸US -455 TG@moon365free"
-      - "*🇺🇸US -458 TG@moon365free"
-      - "*🇺🇸US -658 TG@moon365free"
-      - "*🇺🇸US -88 TG@moon365free"
-      - "*🇺🇸US -90 TG@moon365free"
-      - "*🇺🇸US -92 TG@moon365free"
-      - "*🇺🇸US -94 TG@moon365free"
+      - "*🇺🇸US -442 TG@moon365free"
+      - "*🇺🇸US -446 TG@moon365free"
+      - "*🇺🇸US -447 TG@moon365free"
+      - "*🇺🇸US -448 TG@moon365free"
+      - "*🇺🇸US -453 TG@moon365free"
+      - "*🇺🇸US -454 TG@moon365free"
+      - "*🇺🇸US -591 TG@moon365free"
+      - "*🇺🇸US -647 TG@moon365free"
+      - "*🇺🇸US -83 TG@moon365free"
+      - "*🇺🇸US -84 TG@moon365free"
+      - "*🇺🇸US -86 TG@moon365free"
   - name: 🎈 Failover
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "** -88 TG@moon365free"
-      - "**🇺🇸US -2558 TG@moon365free"
-      - "**🇺🇸US -2572 TG@moon365free"
-      - "**🇺🇸US -2588 TG@moon365free"
-      - "**🇺🇸US -2590 TG@moon365free"
-      - "**🇺🇸US -2616 TG@moon365free"
-      - "*🇨🇦CA -285 TG@moon365free"
-      - "*🇨🇦CA -314 TG@moon365free"
-      - "*🇨🇦CA -315 TG@moon365free"
-      - "*🇨🇳TW -322 TG@moon365free"
-      - "*🇨🇳TW -95 TG@moon365free"
-      - "*🇨🇳TW -97 TG@moon365free"
-      - "*🇫🇷FR -413 TG@moon365free"
+      - "*"
+      - "*🇨🇦CA"
+      - "*🇨🇦CA -308 TG@moon365free"
+      - "*🇨🇦CA -311 TG@moon365free"
+      - "*🇨🇳TW -314 TG@moon365free"
+      - "*🇨🇳TW -87 TG@moon365free"
       - "*🇭🇰HK -120 TG@moon365free"
-      - "*🇭🇰HK -399 TG@moon365free"
-      - "*🇮🇳IN -1339 TG@moon365free"
-      - "*🇯🇵JP -412 TG@moon365free"
-      - "*🇯🇵JP -426 TG@moon365free"
-      - "*🇯🇵JP -442 TG@moon365free"
-      - "*🇯🇵JP -448 TG@moon365free"
+      - "*🇮🇳IN -1317 TG@moon365free"
+      - "*🇯🇵JP -2633 TG@moon365free"
+      - "*🇯🇵JP -445 TG@moon365free"
+      - "*🇯🇵JP -455 TG@moon365free"
       - "*🇯🇵JP -456 TG@moon365free"
-      - "*🇯🇵JP -459 TG@moon365free"
-      - "*🇯🇵JP -460 TG@moon365free"
-      - "*🇰🇷KR -101 TG@moon365free"
+      - "*🇯🇵JP -457 TG@moon365free"
+      - "*🇯🇵JP -85 TG@moon365free"
       - "*🇰🇷KR -102 TG@moon365free"
-      - "*🇰🇷KR -2656 TG@moon365free"
-      - "*🇰🇷KR -82 TG@moon365free"
-      - "*🇰🇷KR -84 TG@moon365free"
-      - "*🇰🇷KR -963 TG@moon365free"
-      - "*🇰🇷KR -99 TG@moon365free"
-      - "*🇲🇾MY -332 TG@moon365free"
-      - "*🇲🇾MY -66 TG@moon365free"
-      - "*🇵🇱PL -980 TG@moon365free"
-      - "*🇷🇺RU -397 TG@moon365free"
-      - "*🇷🇺RU -96 TG@moon365free"
-      - "*🇸🇬SG -408 TG@moon365free"
-      - "*🇸🇬SG -445 TG@moon365free"
-      - "*🇸🇬SG -446 TG@moon365free"
-      - "*🇸🇬SG -85 TG@moon365free"
-      - "*🇺🇸US -2584 TG@moon365free"
-      - "*🇺🇸US -2585 TG@moon365free"
-      - "*🇺🇸US -2587 TG@moon365free"
-      - "*🇺🇸US -2612 TG@moon365free"
-      - "*🇺🇸US -2650 TG@moon365free"
-      - "*🇺🇸US -385 TG@moon365free"
-      - "*🇺🇸US -433 TG@moon365free"
-      - "*🇺🇸US -434 TG@moon365free"
-      - "*🇺🇸US -439 TG@moon365free"
+      - "*🇰🇷KR -91 TG@moon365free"
+      - "*🇰🇷KR -92 TG@moon365free"
+      - "*🇰🇷KR -949 TG@moon365free"
+      - "*🇲🇾MY -320 TG@moon365free"
+      - "*🇵🇱PL -964 TG@moon365free"
+      - "*🇷🇺RU"
+      - "*🇷🇺RU -2575 TG@moon365free"
+      - "*🇷🇺RU -88 TG@moon365free"
+      - "*🇸🇬SG -351 TG@moon365free"
+      - "*🇸🇬SG -361 TG@moon365free"
+      - "*🇸🇬SG -443 TG@moon365free"
+      - "*🇸🇬SG -444 TG@moon365free"
+      - "*🇸🇬SG -458 TG@moon365free"
+      - "*🇺🇸US"
+      - "*🇺🇸US 2"
+      - "*🇺🇸US 3"
+      - "*🇺🇸US 4"
+      - "*🇺🇸US 5"
+      - "*🇺🇸US -2554 TG@moon365free"
+      - "*🇺🇸US -2555 TG@moon365free"
+      - "*🇺🇸US -2561 TG@moon365free"
+      - "*🇺🇸US -2583 TG@moon365free"
+      - "*🇺🇸US -440 TG@moon365free"
       - "*🇺🇸US -441 TG@moon365free"
-      - "*🇺🇸US -444 TG@moon365free"
-      - "*🇺🇸US -449 TG@moon365free"
-      - "*🇺🇸US -450 TG@moon365free"
-      - "*🇺🇸US -452 TG@moon365free"
-      - "*🇺🇸US -455 TG@moon365free"
-      - "*🇺🇸US -458 TG@moon365free"
-      - "*🇺🇸US -658 TG@moon365free"
-      - "*🇺🇸US -88 TG@moon365free"
-      - "*🇺🇸US -90 TG@moon365free"
-      - "*🇺🇸US -92 TG@moon365free"
-      - "*🇺🇸US -94 TG@moon365free"
+      - "*🇺🇸US -442 TG@moon365free"
+      - "*🇺🇸US -446 TG@moon365free"
+      - "*🇺🇸US -447 TG@moon365free"
+      - "*🇺🇸US -448 TG@moon365free"
+      - "*🇺🇸US -453 TG@moon365free"
+      - "*🇺🇸US -454 TG@moon365free"
+      - "*🇺🇸US -591 TG@moon365free"
+      - "*🇺🇸US -647 TG@moon365free"
+      - "*🇺🇸US -83 TG@moon365free"
+      - "*🇺🇸US -84 TG@moon365free"
+      - "*🇺🇸US -86 TG@moon365free"
 rules:
  - DOMAIN-SUFFIX,digicert.com,🌐 Moon节点选择
  - DOMAIN,ocsp.comodoca.com,🌐 Moon节点选择
