@@ -1,2 +1,2 @@
 payload:
-  - 'avatars.mds.yandex.net'
+  - 'bulianglin.com'
