@@ -1,2 +1,3 @@
 payload:
-  - 'bulianglin.com'
+  - 'bulianglin.com':
+  - 'www.youtube.com'
