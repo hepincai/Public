@@ -1,0 +1,80 @@
+port: 1080
+socks-port: 1090
+redir-port: 1100
+allow-lan: false
+mode: rule
+log-level: silent
+external-controller: 0.0.0.0:9091
+unified-delay: true
+keep-alive-interval: 30
+global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) A9ppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.160 Safari/537.36
+profile:
+  tracing: true
+  store-selected: true
+  # 储存 API 对策略组的选择，以供下次启动时使用
+  store-fake-ip: true
+  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:5450
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - localhost.ptlogin2.qq.com
+  nameserver:
+    - 223.5.5.5
+    - 180.76.76.76
+    #- 223.6.6.6
+    - 119.29.29.29
+    - 202.96.128.166
+    #- 119.28.28.28
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 149.112.112.112
+    - 45.11.45.11
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+secret: ""
+proxy-groups:
+  - name: ⛔ 拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+proxy-providers:
+  AWAvenueDomain:
+    type: http
+    behavior: domain
+    url: https://github.boki.moe/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+    path: ./ruleset/AWAvenueDomain.yaml
+    interval: 86400
+  adrules:
+    type: http
+    behavior: classical
+    format: text
+    url: https://adrules.top/adrules.list
+    path: ./ruleset/adrules.yaml
+    interval: 86400
+  EasyPrivacyClassical:
+    type: http
+    behavior: classical
+    url: https://raw.kkgithub.com/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy_Classical.yaml
+    path: ./ruleset/EasyPrivacyClassical.yaml
+    interval: 86400
+  advertisingClassical:
+    type: http
+    behavior: classical
+    url: https://raw.kkgithub.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+    path: ./ruleset/advertisingClassical.yaml
+    interval: 86400
+rules:
+  - RULE-SET,AWAvenueDomain,⛔ 拦截
+  - RULE-SET,adrules,⛔ 拦截
+  - RULE-SET,advertisingClassical,⛔ 拦截
+  - RULE-SET,EasyPrivacyClassical,⛔ 拦截
+  - MATCH,DIRECT
