@@ -82,4 +82,4 @@ rules:
   - RULE-SET,adrules,⛔ 拦截
   - RULE-SET,advertisingClassical,⛔ 拦截
   - RULE-SET,EasyPrivacyClassical,⛔ 拦截
-  - MATCH,✈️  直连
+  - MATCH,DIRECT
