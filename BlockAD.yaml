@@ -40,6 +40,11 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 secret: ""
+proxies:
+  - name: "🎶 Local_10810"
+    type: socks5
+    server: 127.0.0.1
+    port: 10810
 proxy-groups:
   - name: ⛔ 拦截
     type: select
