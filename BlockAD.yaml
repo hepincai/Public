@@ -46,11 +46,11 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-proxy-providers:
+rule-providers:
   AWAvenueDomain:
     type: http
     behavior: domain
-    url: https://github.boki.moe/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+    url: https://github.boki.moe/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
     path: ./ruleset/AWAvenueDomain.yaml
     interval: 86400
   adrules:
@@ -77,4 +77,4 @@ rules:
   - RULE-SET,adrules,⛔ 拦截
   - RULE-SET,advertisingClassical,⛔ 拦截
   - RULE-SET,EasyPrivacyClassical,⛔ 拦截
-  - MATCH,DIRECT
+  - MATCH,✈️  直连
