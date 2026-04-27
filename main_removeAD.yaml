@@ -1,0 +1,90 @@
+port: 1081
+socks-port: 1080
+redir-port: 1100
+allow-lan: false
+mode: rule
+geodata-mode: true
+log-level: silent
+external-controller: 127.0.0.1:9091
+external-controller-cors:
+  allow-origins:
+    - '*'
+  allow-private-network: true
+unified-delay: true
+keep-alive-interval: 30
+global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) A9ppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.160 Safari/537.36
+profile:
+  tracing: true
+  store-selected: true
+  # 储存 API 对策略组的选择，以供下次启动时使用
+  store-fake-ip: true
+  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:5450
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - localhost.ptlogin2.qq.com
+  nameserver:
+    - 223.5.5.5
+    - 180.76.76.76
+    #- 223.6.6.6
+    - 119.29.29.29
+    - 202.96.128.166
+    #- 119.28.28.28
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 149.112.112.112
+    - 45.11.45.11
+    #- 8.8.4.4
+    #- 208.67.222.222
+    #- 208.67.220.220
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+secret: "2994307"
+proxy-groups:
+  - name: ⛔ 拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+rule-providers:
+  Advertising_OCD_Domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://hk.gh-proxy.org/https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Advertising/Advertising_OCD_Domain.mrs
+    path: ./ruleset/Advertising_OCD_Domain.mrs
+    interval: 432000
+  Advertising_OCD_IP:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://hk.gh-proxy.org/https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Advertising/Advertising_OCD_IP.mrs
+    path: ./ruleset/Advertising_OCD_IP.mrs
+    interval: 432000
+  AWAvenueDomain:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+    path: ./ruleset/AWAvenueDomain.yaml
+    interval: 432000
+  EasyPrivacy_OCD_Domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://hk.gh-proxy.org/https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/EasyPrivacy/EasyPrivacy_OCD_Domain.mrs
+    path: ./ruleset/EasyPrivacy_OCD_Domain.mrs
+    interval: 432000
+rules:
+  - RULE-SET,AWAvenueDomain,⛔ 拦截
+  - RULE-SET,Advertising_OCD_Domain,⛔ 拦截
+  - RULE-SET,Advertising_OCD_IP,⛔ 拦截
+  - RULE-SET,EasyPrivacy_OCD_Domain,⛔ 拦截
+  - MATCH,DIRECT
